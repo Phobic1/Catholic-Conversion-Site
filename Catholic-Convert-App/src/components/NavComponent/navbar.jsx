@@ -5,16 +5,16 @@ function Navbar() {
     <div>
       <nav class = "navbar">
         <div class = "navbar-item">
-          Home
+          <a class="navText">Home</a>
         </div>
         <div class = "navbar-item">
-          Find a Church
+          <a class="navText">Find a Church</a>
         </div>
         <div class = "navbar-item">
-          About
+          <a class="navText">About</a>
         </div>
         <div class = "navbar-item">
-          Contact Us
+          <a class="navText">Contact Us</a>
         </div>
       </nav>
     </div>

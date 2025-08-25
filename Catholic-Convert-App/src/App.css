@@ -3,14 +3,23 @@
   width: 100%;
 }
 
+a.navText{
+  color:white;
+}
+
+a.navText:hover{
+  text-decoration: underline;
+
+}
+
 nav.navbar{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    height: 10%;
-    width: 100%;
-    background-color: darkred;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 10%;
+  width: 100%;
+  background-color: darkred;
 }
 
 div.navbar-item{
