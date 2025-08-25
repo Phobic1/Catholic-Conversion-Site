@@ -8,26 +8,26 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    <head>
+      <title>Catholic Inquiries</title>
+      <link href="./App.css"></link>
+    </head>
+    <body>
+      <background>
+        <img src="https://shop.catholic.com/product_images/uploaded_images/eucharist-2.jpg"></img>
+      </background>
+      <a></a>
+      <h1 class="welcome">Welcome to Catholic Inquiries!</h1>
+      <p1>
+        <em>Hello!</em> Becoming Catholic is a difficult venture, we are here to help and streamline the
+         process of joining the Catholic Church is seemless transition in your life's faith
+        journey.
+      </p1>
+      <video src=""></video>
+    
+
+
+     </body>
     </>
   )
 }
